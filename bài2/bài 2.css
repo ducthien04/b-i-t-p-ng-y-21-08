@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+.grip-dulieu{
+    display: flex;
+    align-items: flex-start;
+    border: 3px solid #ddd;
+    padding: 80px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 700px;
+    margin: 0 ;
+}
+.grip-img {
+    flex: 0;
+    margin-right: 30px;
+}
+.grip-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+.grip-item a {
+    margin-bottom: 20px;
+    line-height: 2;
+    color: #333;
+}
+.btn-detail {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn-detail:hover {
+    background-color: #0056f7;
+    color: #fff;
+}
